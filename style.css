@@ -1,0 +1,39 @@
+.hesapmakinesi{
+    background-color: rgb(227, 238, 248);
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.hesapmakinesi-input{
+    width: 100%;
+    border: none;
+    background-color: rgb(221, 217, 217);
+    text-align: right;
+    height: 50px;
+    box-sizing: border-box;
+}
+.keys{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    grid-gap: 15px;
+    width: 100%;
+    font-weight: bold;
+}
+.esittir{
+    background-color:rgb(205, 229, 251) ;
+    font-weight: bold;
+    grid-row: 2 / span 5; 
+    grid-column: 4;
+}
+.clear {
+    background-color: rgb(252, 123, 123);
+    
+}
+.clear:hover{
+    background-color:rgb(254, 81, 81) ;
+}
